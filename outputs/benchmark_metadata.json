@@ -1,0 +1,22 @@
+{
+  "dataset": "data.csv",
+  "rows": 150,
+  "features": [
+    "sepal_length",
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "target": "species",
+  "classes": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "train_rows": 120,
+  "test_rows": 30,
+  "test_size": 0.2,
+  "random_state": 42,
+  "stratified": true,
+  "duplicate_rows_retained": 1
+}
